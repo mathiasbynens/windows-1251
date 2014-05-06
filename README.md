@@ -2,7 +2,7 @@
 
 _windows-1251_ is a robust JavaScript implementation of [the windows-1251 character encoding as defined by the Encoding Standard](http://encoding.spec.whatwg.org/#windows-1251).
 
-This encoding is known under the following names: cp1251, windows-1251, x-cp1251, and x-cp1251.
+This encoding is known under the following names: cp1251, windows-1251, and x-cp1251.
 
 ## Installation
 

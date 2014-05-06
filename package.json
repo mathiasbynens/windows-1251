@@ -1,0 +1,48 @@
+{
+	"name": "windows-1251",
+	"version": "0.1.0",
+	"description": "A robust windows-1251 encoder/decoder written in JavaScript.",
+	"homepage": "http://mths.be/windows-1251",
+	"main": "windows1251.js",
+	"keywords": [
+		"codec",
+		"decoder",
+		"encoder",
+		"legacy",
+		"cp1251",
+		"windows-1251",
+		"x-cp1251"
+	],
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://mths.be/mit"
+		}
+	],
+	"author": {
+		"name": "Mathias Bynens",
+		"url": "http://mathiasbynens.be/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mathiasbynens/windows-1251.git"
+	},
+	"bugs": {
+		"url": "https://github.com/mathiasbynens/windows-1251/issues"
+	},
+	"files": [
+		"LICENSE-MIT.txt",
+		"windows1251.js"
+	],
+	"devDependencies": {
+		"grunt": "~0.4.4",
+		"grunt-shell": "~0.7.0",
+		"grunt-template": "~0.2.3",
+		"istanbul": "~0.2.7",
+		"jsesc": "~0.4.3",
+		"qunit-extras": "~1.1.0",
+		"qunitjs": "~1.11.0",
+		"requirejs": "~2.1.11",
+		"string.fromcodepoint": "~0.2.0"
+	}
+}

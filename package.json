@@ -3,7 +3,7 @@
 	"version": "0.1.1",
 	"description": "A robust windows-1251 encoder/decoder written in JavaScript.",
 	"homepage": "http://mths.be/windows-1251",
-	"main": "windows1251.js",
+	"main": "windows-1251.js",
 	"keywords": [
 		"codec",
 		"decoder",
@@ -32,7 +32,7 @@
 	},
 	"files": [
 		"LICENSE-MIT.txt",
-		"windows1251.js"
+		"windows-1251.js"
 	],
 	"directories": {
 		"test": "tests"

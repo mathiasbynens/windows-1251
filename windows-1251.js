@@ -1,4 +1,4 @@
-/*! https://mths.be/windows-1251 v0.1.2 by @mathias | MIT license */
+/*! https://mths.be/windows-1251 v1.0.0 by @mathias | MIT license */
 ;(function(root) {
 
 	// Detect free variables `exports`.
@@ -120,7 +120,7 @@
 			'windows-1251',
 			'x-cp1251'
 		],
-		'version': '0.1.2'
+		'version': '1.0.0'
 	};
 
 	// Some AMD build optimizers, like r.js, check for specific condition patterns

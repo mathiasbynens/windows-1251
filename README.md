@@ -1,4 +1,4 @@
-# windows-1251 [![windows-1251 on npm](https://img.shields.io/npm/v/windows-1251)](https://www.npmjs.com/package/windows-1251)
+# windows-1251 [![Build status](https://github.com/mathiasbynens/windows-1251/workflows/run-checks/badge.svg)](https://github.com/mathiasbynens/windows-1251/actions?query=workflow%3Arun-checks) [![windows-1251 on npm](https://img.shields.io/npm/v/windows-1251)](https://www.npmjs.com/package/windows-1251)
 
 _windows-1251_ is a robust JavaScript implementation of [the windows-1251 character encoding as defined by the Encoding Standard](https://encoding.spec.whatwg.org/#windows-1251).
 

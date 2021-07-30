@@ -1,21 +1,5 @@
 /*! https://mths.be/windows-1251 v<%= version %> by @mathias | MIT license */
-;(function(root) {
-
-	// Detect free variables `exports`.
-	var freeExports = typeof exports == 'object' && exports;
-
-	// Detect free variable `module`.
-	var freeModule = typeof module == 'object' && module &&
-		module.exports == freeExports && module;
-
-	// Detect free variable `global`, from Node.js/io.js or Browserified code,
-	// and use it as `root`.
-	var freeGlobal = typeof global == 'object' && global;
-	if (freeGlobal.global === freeGlobal || freeGlobal.window === freeGlobal) {
-		root = freeGlobal;
-	}
-
-	/*--------------------------------------------------------------------------*/
+;(function() {
 
 	var object = {};
 	var hasOwnProperty = object.hasOwnProperty;
@@ -33,7 +17,7 @@
 			return '&#' + codePoint + ';';
 		}
 		// Else, `mode == 'fatal'`.
-		throw Error();
+		throw new Error();
 	};
 
 	// https://encoding.spec.whatwg.org/#single-byte-decoder
@@ -113,32 +97,12 @@
 	};
 
 	var windows1251 = {
-		'encode': encode,
-		'decode': decode,
-		'labels': <%= labels %>,
-		'version': '<%= version %>'
+		encode: encode,
+		decode: decode,
+		labels: <%= labels %>,
+		version: '<%= version %>',
 	};
 
-	// Some AMD build optimizers, like r.js, check for specific condition patterns
-	// like the following:
-	if (
-		typeof define == 'function' &&
-		typeof define.amd == 'object' &&
-		define.amd
-	) {
-		define(function() {
-			return windows1251;
-		});
-	}	else if (freeExports && !freeExports.nodeType) {
-		if (freeModule) { // in Node.js, io.js or RingoJS v0.8.0+
-			freeModule.exports = windows1251;
-		} else { // in Narwhal or RingoJS v0.7.0-
-			for (var key in windows1251) {
-				windows1251.hasOwnProperty(key) && (freeExports[key] = windows1251[key]);
-			}
-		}
-	} else { // in Rhino or a web browser
-		root.windows1251 = windows1251;
-	}
+	module.exports = windows1251;
 
-}(this));
+}());

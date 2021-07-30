@@ -1,6 +1,6 @@
 {
 	"name": "windows-1251",
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "A robust windows-1251 encoder/decoder written in JavaScript.",
 	"homepage": "https://mths.be/windows-1251",
 	"exports": "windows-1251.mjs",

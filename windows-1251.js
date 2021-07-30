@@ -1,4 +1,4 @@
-/*! https://mths.be/windows-1251 v1.0.2 by @mathias | MIT license */
+/*! https://mths.be/windows-1251 v1.1.0 by @mathias | MIT license */
 ;(function() {
 
 	const stringFromCharCode = String.fromCharCode;
@@ -96,7 +96,7 @@
 			'windows-1251',
 			'x-cp1251'
 		],
-		version: '1.0.2',
+		version: '1.1.0',
 	};
 
 	module.exports = windows1251;

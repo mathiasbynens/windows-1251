@@ -3,7 +3,7 @@
 	"version": "1.1.0",
 	"description": "A robust windows-1251 encoder/decoder written in JavaScript.",
 	"homepage": "https://mths.be/windows-1251",
-	"main": "windows-1251.js",
+	"exports": "windows-1251.mjs",
 	"keywords": [
 		"codec",
 		"decoder",
@@ -28,13 +28,13 @@
 	"bugs": "https://github.com/mathiasbynens/windows-1251/issues",
 	"files": [
 		"LICENSE-MIT.txt",
-		"windows-1251.js"
+		"windows-1251.mjs"
 	],
 	"scripts": {
 		"download": "curl https://encoding.spec.whatwg.org/index-windows-1251.txt > data/index.txt",
 		"build": "node scripts/transform-data.js",
-		"test": "node tests/tests.js",
-		"cover": "istanbul cover --report html --verbose --dir coverage tests/tests.js"
+		"test": "node tests/tests.mjs",
+		"cover": "istanbul cover --report html --verbose --dir coverage tests/tests.mjs"
 	},
 	"devDependencies": {
 		"istanbul": "^0.4.2",

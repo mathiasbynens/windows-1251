@@ -3,7 +3,7 @@
 	"version": "3.0.0",
 	"description": "A robust windows-1251 encoder/decoder written in JavaScript.",
 	"homepage": "https://mths.be/windows-1251",
-	"exports": "windows-1251.mjs",
+	"exports": "./windows-1251.mjs",
 	"keywords": [
 		"codec",
 		"decoder",
